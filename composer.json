@@ -1,0 +1,29 @@
+{
+    "name": "gquemener/oss-contribution-projector",
+    "description": "A read model projector of GitHub OSS contributions",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gildas Quéméner",
+            "email": "gildas.quemener@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "kevinrob/guzzle-cache-middleware": "^3.2",
+        "symfony/cache": "^4.1",
+        "prooph/event-store": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "GQuemener\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.3"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
